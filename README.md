@@ -1,5 +1,3 @@
-# Read me
-
 # Tutorials that helped
 
 ## Create and Initiate a GitHub Repository via Terminal
@@ -8,11 +6,20 @@
 ## From GitHub to readthedoc.io
 [Simple GitHub repo and ReadTheDocs set up](https://tutos.readthedocs.io/en/latest/source/git_rtd.html)
 
-## Sphinx Documentation
+---
 
-### Shpinx Change Themes
+# Git Documentation
+
+* [git cheat-sheet](https://gist.github.com/davfre/8313299)
+* [Git cheat sheet (PDF)](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+
+---
+
+# Sphinx Documentation
+
+## Shpinx Change Themes
 * [Many deafult themes](https://sphinx-themes.org/). Installed themes
    * sphinx-glpi-theme
 
-### Sphinx Extension
+## Sphinx Extension
 * [Hoverxref](https://github.com/readthedocs/sphinx-hoverxref): use of may pre-define tooltips
