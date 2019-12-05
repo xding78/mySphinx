@@ -44,7 +44,47 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'hoverxref.extension',
 ]
+
+# ------- MUST ADD FOR hoverxref -------
+
+# Used when building the documentation from the terminal and using a local Read
+# the Docs instance as backend
+hoverxref_tooltip_api_host = 'http://localhost:8000'
+
+if os.environ.get('READTHEDOCS') == 'True':
+    # Building on Read the Docs
+    hoverxref_tooltip_api_host = 'https://readthedocs.org'
+if os.environ.get('LOCAL_READTHEDOCS') == 'True':
+    # Building on a local Read the Docs instance
+    hoverxref_tooltip_api_host = 'http://dev.readthedocs.io:8000'
+
+hoverxref_tooltip_maxwidth = 650
+hoverxref_auto_ref = True
+hoverxref_roles = [
+    'confval',
+]
+hoverxref_domains = [
+    'py',
+]
+hoverxref_sphinxtabs = True
+hoverxref_mathjax = True
+
+versionwarning_messages = {
+    'latest': 'This extension is currently in Beta state. '
+    'This means that there may be some things not well supported or unexpected behavior. '
+    'If you find any issue, please <a href="https://github.com/readthedocs/sphinx-hoverxref/issues">report it in the issue tracker</a>.'
+}
+versionwarning_banner_title = 'We are in Beta!'
+versionwarning_body_selector = 'div[itemprop="articleBody"]'
+
+autosectionlabel_prefix_document = True
+
+autoapi_dirs = ['../hoverxref']
+autoapi_add_toctree_entry = False
+
+# -------End of hoverxref---------
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -105,6 +145,9 @@ html_static_path = ['_static']
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
+
+# Output file base name for HTML help builder.
+htmlhelp_basename = 'sphinx-hoverxrefdoc'
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'mySphinxdoc'
