@@ -9,7 +9,7 @@ My First readthedoc.io project
 Try out Hoverxref
 ^^^^^^^^^^^^^^^^^
 
-This will :hoverxref:`show a tooltip <glossary:Blockchain>` in the linked words to hoverxref.
+This will :hoverxref:`show a tooltip <glossary:Blockchain>` in the linked words to ``hoverxref``.
 
 .. toctree::
    :maxdepth: 2
