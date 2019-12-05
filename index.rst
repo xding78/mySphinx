@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to mySphinx's documentation!
-====================================
+My First readthedoc.io project
+==============================
 
 .. toctree::
    :maxdepth: 2
