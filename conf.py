@@ -179,3 +179,8 @@ epub_exclude_files = ['search.html']
 
 
 # -- Extension configuration -------------------------------------------------
+import sphinx_glpi_theme
+
+html_theme = "glpi"
+
+html_theme_path = [sphinx_glpi_theme.get_html_themes_path()]
