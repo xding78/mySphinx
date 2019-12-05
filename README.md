@@ -17,9 +17,9 @@
 
 # Sphinx Documentation
 
-## Shpinx Change Themes
+## Themes
 * [Many deafult themes](https://sphinx-themes.org/). Installed themes
    * sphinx-glpi-theme
 
-## Sphinx Extension
+## Extensions
 * [Hoverxref](https://github.com/readthedocs/sphinx-hoverxref): use of may pre-define tooltips
