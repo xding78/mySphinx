@@ -81,7 +81,7 @@ versionwarning_body_selector = 'div[itemprop="articleBody"]'
 
 autosectionlabel_prefix_document = True
 
-autoapi_dirs = ['../hoverxref']
+autoapi_dirs = ['hoverxref']
 autoapi_add_toctree_entry = False
 
 # -------End of hoverxref---------
