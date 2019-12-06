@@ -11,6 +11,8 @@ Try out Hoverxref
 
 This will :hoverxref:`show a tooltip <glossary:Blockchain>` in the linked words to ``hoverxref``.
 
+See :ref:`glossary:Blockchain`
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
