@@ -19,6 +19,9 @@ See :ref:`index:Test`, :ref:`index`
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   index
+   glossary
 
 
 
